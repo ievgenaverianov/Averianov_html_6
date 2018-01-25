@@ -1,0 +1,513 @@
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('../lucida_sans_unicode_regular-webfont.eot');
+    src: url('../lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+         url('../lucida_sans_unicode_regular-webfont.woff') format('woff'),
+         url('../lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+  width: 909px;
+  height: 1135px;
+  margin-top: 21px;
+  margin-left: 45px;
+  font-family: Arial;
+}
+
+.top {
+  display: flex;
+  height: 30px;
+  margin: 3px auto;
+}
+
+.telephone {
+  height: 25px;
+}
+
+.telephone > img {
+  margin-left: 6px;
+}
+
+.telephone span {
+  font-size: 18px;
+  color: #5e696d;
+  line-height: 25px;
+  margin-right: -6px;
+  vertical-align: bottom;
+  letter-spacing: 0.44px;
+}
+
+.autorization {
+  height: 25px;
+  width: 490px;
+  background-image: linear-gradient(#1f6787, #0c3357);
+  border-radius: 3px;
+  font-family: 'Lucida Sans Unicode';
+  padding-left: 5px;
+  box-shadow: 3px 3px 4px 0px #bfbfbf;
+  margin-top: -3px;
+  margin-left: 22px;
+}
+
+.autorization img{
+  vertical-align: bottom;
+  padding-top: 4px;
+  padding-left: 2px;
+}
+
+.autorization input {
+  height: 14px;
+  width: 111px;
+  letter-spacing: -0.69px;
+  border: none;
+  font-family: Lucida;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 12px;
+  padding-left: 1px;
+}
+
+.autorization [type="password"] {
+  width: 110px;
+  padding-left: 2px;
+  margin-left: 4px;
+}
+
+.autorization button{
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  color: #fff;
+  font-family: 'Lucida Sans Unicode';
+  font-size: 11px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.autorization [type="submit"] {
+  padding-left: 2px;
+}
+
+.autorization span {
+  color: #fff;
+  font-size: 11px;
+  margin-left: -2px;
+}
+
+.autorization [type="button"]{
+  margin-left: -2px;
+  letter-spacing: -0.2px;
+}
+
+.autorization a {
+  font-size: 12px;
+  color: #bfbfbf;
+  font-family: 'Lucida Sans Unicode';
+  margin-left: 15px;
+}
+
+.navi {
+  width: 78px;
+  height: 21px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-top: -2px;
+  box-sizing: border-box;
+  padding-left: 9px;
+}
+
+.navi a{
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+}
+
+.menu {
+  display: block;
+  width: 786px;
+  height: 34px;
+  background-image: linear-gradient(#4d5663, #010101);
+  border-radius: 4px;
+  padding-left: 125px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.menu a{
+  display: block;
+  height: 26px;
+  border-radius: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Lucida Sans Unicode';
+  color: #b1bcc0;
+  float: left;
+  margin: 3px;
+  padding: 0 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.menu li:nth-child(2) > a {
+  margin-left: -4px;
+}
+
+.menu li:nth-child(3) > a {
+  margin-left: -9px;
+}
+
+.menu li:nth-child(4) > a {
+  margin-left: -10px;
+}
+
+.menu li:last-child > a {
+  margin-left: -13px;
+}
+
+
+.menu a:hover {
+  background-color: #1d6081;
+  color: #fff;
+}
+
+.barrow {
+  float: left;
+  padding-left: 49px;
+}
+
+.barrow img{
+  display: inline-block;
+  margin-top: 2px;
+  vertical-align: text-top;
+}
+
+.barrow span {
+  font-family: Arial;
+  font-size: 11px;
+  color: #8a9296;
+  line-height: 32px;
+  padding-left: 2px;
+  letter-spacing: 0.7px;
+}
+
+#sum{
+  letter-spacing: 0.4px;
+  padding-right: 10px;
+}
+
+.barrow output {
+  font-family: Arial;
+  font-size: 12px;
+  color: #0d5a8f;
+  margin-left: -4px;
+  padding-right: 12px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.left_menu {
+  float: left;
+}
+
+.empty_filter{
+  height: 152px;
+}
+
+.catalog {
+  height: 25px;
+  width: 180px;
+  border: 1px solid #c1c8cb;
+  border-radius: 12px;
+  box-shadow: 2px 2px 3px 0px #bfbfbf;
+  margin-top: 3px;
+  letter-spacing: -0.22px
+}
+
+.catalog img{
+  padding-top: 1px;
+  padding-left: 1px;
+}
+
+.catalog span {
+  vertical-align: super;
+  color: #114165;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.list_name {
+  height: 26px;
+  width: 146px;
+  border: 1px solid #c1c8cb;
+  border-radius: 12px;
+  color: #114165;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 27px;
+  margin-top: 13px;
+  padding-left: 3px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.circle {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: 6px solid #114165;
+  border-radius: 100%;
+  margin: 2px;
+  margin-right: -2px;
+}
+
+.list_name span,
+.brand_category span {
+  vertical-align: top;
+  color: #114165;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 27px;
+  font-family: 'Lucida Sans Unicode';
+}
+
+.left_menu ul {
+  margin-top: -7px;
+  margin-bottom: -10px;
+}
+
+.left_menu li {
+  vertical-align: top;
+  font-size: 13px;
+  font-family: 'Lucida Sans Unicode';
+  margin-top: 13px;
+  margin-left: 30px;
+  letter-spacing: -0.2px;
+}
+
+.marker {
+  display: inline-block;
+  height: 2px;
+  width: 2px;
+  border: 2px solid #7a878d;
+  border-radius: 4px;
+  margin: 1px 5px 1px 6px;
+}
+
+.left_menu li:hover {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.left_menu a {
+  text-decoration: none;
+  color: #465961;
+}
+
+.left_menu a:hover {
+  color: #0c3256;
+}
+
+main {
+  float: left;
+  height: 627px;
+  width: 513px;
+  background-image: linear-gradient(#e4e7e8, #93a7b0);
+  margin: 0 9px;
+  padding-left: 13px;
+}
+
+figure {
+  display: inline-block;
+  width: 137px;
+  margin: 15px 17px 10px 9px;
+}
+
+.last_row {
+  margin-top: 17px;
+}
+
+figure span {
+  display: block;
+  height: 128px;
+  width: 138px;
+  border: 1px solid #bfc6c8;
+  border-radius: 7px;
+  float: left;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+
+figure img {
+  margin: 5px 30px;
+}
+
+.nokian img {
+  margin: 4px 33px;
+}
+
+.hankook img {
+  margin: 4px 28px;
+}
+
+.brand {
+  font-size: 15px;
+  font-family: 'Lucida Sans Unicode';
+  text-align: center;
+  color: #206988;
+}
+
+.nokian .brand {
+  padding-left: 6px;
+}
+
+.hankook .brand {
+  padding-left: 7px;
+}
+
+.model {
+  font-size: 13px;
+  font-family: 'Lucida Sans Unicode';
+  text-align: center;
+  color: #1f2528;
+  padding-left: 6px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Arial;
+  text-align: center;
+  color: #114165;
+  padding-left: 10px;
+  letter-spacing: 0.45px;
+}
+
+.price p {
+  display: inline;
+  font-size: 12px;
+}
+
+.right_menu {
+  float: left;
+}
+
+.right_menu .catalog {
+  margin-top: 1px;
+  letter-spacing: 0.7px;
+}
+
+.right_menu .catalog img {
+  padding-left: 3px;
+}
+
+.right_menu .circle {
+  margin-left: 3px;
+  margin-right: -1px;
+}
+
+.brand_check {
+  font-size: 12px;
+  color: #465961;
+  margin-top: 7px;
+  margin-left: 20px;
+  letter-spacing: 0.9px;
+}
+
+.brand_category {
+  display: block;
+  height: 26px;
+  width: 133px;
+  border: 1px solid #c1c8cb;
+  border-radius: 12px;
+  color: #114165;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 27px;
+  margin-top: 14px;
+  font-family: 'Lucida Sans Unicode';
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+.brand_check [type="checkbox"] {
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+}
+
+.right_menu button{
+  width: 81px;
+  height: 24px;
+  background-image: linear-gradient(#1f6787, #0c3357);
+  margin: 22px 20px 20px 25px;
+  border: none;
+  border-radius: 12px;
+  font-family: Arial;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 2px 2px 3px 0px #bfbfbf;
+  letter-spacing: 1px;
+}
+
+.wrapper > img {
+  display: block;
+  margin: 37px auto 26px auto;
+}
+
+footer {
+  height: 100px;
+  width: 910px;
+  background-color: #213a4d;
+}
+
+.footer_menu{
+  position: absolute;
+  margin: 12px 0 0 297px;
+  width: 323px;
+  height: 20px;
+  line-height: 12px;
+}
+
+.footer_menu li{
+  display: block;
+  float: left;
+  font-size: 12px;
+  padding: 0 14px 0 12px;
+  border-left: 1px solid #bec6c9;
+  border-right: 1px solid #bec6c9;
+  letter-spacing: 0.1px;
+}
+
+.footer_menu a{
+  text-decoration: none;
+  color: #bec6c9;
+}
+
+.footer_menu li:first-child{
+ border-left: none;
+}
+
+.footer_menu li:last-child{
+ border-right: none;
+}
+
+footer span{
+  display: block;
+  position: absolute;
+  margin: 40px 376px;
+  font-size: 10px;
+  color: #7f4740;
+}
